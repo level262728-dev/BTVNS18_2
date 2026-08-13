@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Căn hàng ngang cho form */
+.task-form input, 
+.task-form select, 
+.task-form button {
+  padding: 6px;
+  margin-right: 5px;
+}
+
+/* Kẻ bảng đơn giản */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task-table th, 
+.task-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+#submitBtn {
+  background-color: #007bff; 
+  color: white;            
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#submitBtn:hover {
+  background-color: #0056b3;
+}
